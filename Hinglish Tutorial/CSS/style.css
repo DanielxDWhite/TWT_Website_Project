@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+header{
+    background-image: url(../Solstace1.jpg);
+    height:50vh;
+    background-size: cover;
+    background-position: center;
+}
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 25px;
+}
+ul li{
+    padding: 15px;
+    padding-right: 30px;
+}
+ul li a{
+    background-color: rgba(0, 0, 0, 0.425);
+    color: rgb(233, 233, 233);
+    padding: 5px 20px;
+    border: 3px solid #fed;
+    transition: 1.3s ease;
+}
+ul li a:hover{
+    background-color: #fff;
+    color: rgb(4, 31, 8);
+}
+ul li.active a{
+    background-color: rgba(42, 119, 42, 0.473);
+    color: #fff;
+}
+ul li.active a:hover{
+    background-color: rgba(1, 29, 6, 0.925);
+    color: rgb(26, 180, 12);
+}
+.logo img{
+    padding: 0px;
+    float: left;
+    width: 300px;
+    height: auto;
+}
+.main{
+    max-width: 1000px;
+    margin: auto;
+}
+.title{
+    font-size: 28px;
+    position: absolute;
+    top: 37%;
+    left: 1%;
+    transform: translate();
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: black;
+}
+.xDDDD{
+    
+    background-color: rgb(201, 201, 201);
+    padding: 5px;
+    color: rgb(0, 90, 12);
+    font-size: x-large;
+}
