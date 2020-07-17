@@ -53,8 +53,8 @@ ul li.active a:hover{
     top: 37%;
     left: 1%;
     transform: translate();
-    -webkit-text-stroke-width: 0.5px;
-    -webkit-text-stroke-color: black;
+        -webkit-text-stroke-width: 0.5px;
+        -webkit-text-stroke-color: black;
 }
 .xDDDD{
     
